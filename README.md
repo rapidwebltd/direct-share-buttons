@@ -16,7 +16,9 @@ Next view the demo.html page to find suitable social buttons and copy the code a
 
 #Credits
 [Font Awesome](http://fortawesome.github.io/Font-Awesome/) - For the Social Network Logos
+
 [Danny van Kooten](https://dannyvankooten.com/add-plain-html-social-sharing-links-posts/) - For the insight into social network intents
+
 [Jeremy Mansfield](http://www.brandaiddesignco.com/insights/add-a-custom-pinterest-pin-it-button-to-your-website/) - For the insight into Pinterest functionality from URL
 
 #License 
