@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Intent Social Buttons</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="intent-social-buttons.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class=-"col-sm-8 col-sm-offset-2">
+          <h1 class="text-center">Intent Social Buttons</h1>
+          <p>A pure HTML &amp; CSS implementation on allowing your end users to interact with social networks from your site without any need of loading in heavy JavaScript-based widgets.</p>
+          <h2>Example</h2>
+
+          <h3>Circle Icons</h3>
+          <a href="http://www.facebook.com/sharer/sharer.php?p[url]=YOUR_URL&amp;p[title]=YOUR_TITLE" class="fa-stack fa-lg">
+            <i class="fa fa-circle isb-facebook fa-stack-2x"></i>
+            <i class="fa fa-facebook fa-stack-1x isb-white"></i>
+          </a>
+
+          <a href="http://twitter.com/intent/tweet/?text=YOUR_TEXT&amp;url=YOUR_URL&amp;via=YOUR_TWITTER" class="fa-stack fa-lg">
+            <i class="fa fa-circle isb-twitter fa-stack-2x"></i>
+            <i class="fa fa-twitter fa-stack-1x isb-white"></i>
+          </a>
+
+          <a href="https://plus.google.com/share?url=YOUR_URL" class="fa-stack fa-lg">
+            <i class="fa fa-circle isb-googleplus fa-stack-2x"></i>
+            <i class="fa fa-google-plus fa-stack-1x isb-white"></i>
+          </a>
+
+          <a href="javascript:void((function()%7Bvar%20e=document.createElement(&apos;script&apos;);e.setAttribute(&apos;type&apos;,&apos;text/javascript&apos;);e.setAttribute(&apos;charset&apos;,&apos;UTF-8&apos;);e.setAttribute(&apos;src&apos;,&apos;http://assets.pinterest.com/js/pinmarklet.js?r=&apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());" class="fa-stack fa-lg">
+            <i class="fa fa-circle isb-pinterest fa-stack-2x"></i>
+            <i class="fa fa-pinterest-p fa-stack-1x isb-white"></i>
+          </a>
+          <h4>Code:</h4>
+<pre>
+&#x3C;a href=&#x22;http://www.facebook.com/sharer/sharer.php?p[url]=YOUR_URL&#x26;amp;p[title]=YOUR_TITLE&#x22; class=&#x22;fa-stack fa-lg&#x22;&#x3E;
+  &#x3C;i class=&#x22;fa fa-circle isb-facebook fa-stack-2x&#x22;&#x3E;&#x3C;/i&#x3E;
+  &#x3C;i class=&#x22;fa fa-facebook fa-stack-1x isb-white&#x22;&#x3E;&#x3C;/i&#x3E;
+&#x3C;/a&#x3E;
+
+&#x3C;a href=&#x22;http://twitter.com/intent/tweet/?text=YOUR_TEXT&#x26;amp;url=YOUR_URL&#x26;amp;via=YOUR_TWITTER&#x22; class=&#x22;fa-stack fa-lg&#x22;&#x3E;
+  &#x3C;i class=&#x22;fa fa-circle isb-twitter fa-stack-2x&#x22;&#x3E;&#x3C;/i&#x3E;
+  &#x3C;i class=&#x22;fa fa-twitter fa-stack-1x isb-white&#x22;&#x3E;&#x3C;/i&#x3E;
+&#x3C;/a&#x3E;
+
+&#x3C;a href=&#x22;https://plus.google.com/share?url=YOUR_URL&#x22; class=&#x22;fa-stack fa-lg&#x22;&#x3E;
+  &#x3C;i class=&#x22;fa fa-circle isb-googleplus fa-stack-2x&#x22;&#x3E;&#x3C;/i&#x3E;
+  &#x3C;i class=&#x22;fa fa-google-plus fa-stack-1x isb-white&#x22;&#x3E;&#x3C;/i&#x3E;
+&#x3C;/a&#x3E;
+
+&#x3C;a href=&#x22;javascript:void((function()%7Bvar%20e=document.createElement(&#x26;apos;script&#x26;apos;);e.setAttribute(&#x26;apos;type&#x26;apos;,&#x26;apos;text/javascript&#x26;apos;);e.setAttribute(&#x26;apos;charset&#x26;apos;,&#x26;apos;UTF-8&#x26;apos;);e.setAttribute(&#x26;apos;src&#x26;apos;,&#x26;apos;http://assets.pinterest.com/js/pinmarklet.js?r=&#x26;apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());&#x22; class=&#x22;fa-stack fa-lg&#x22;&#x3E;
+  &#x3C;i class=&#x22;fa fa-circle isb-pinterest fa-stack-2x&#x22;&#x3E;&#x3C;/i&#x3E;
+  &#x3C;i class=&#x22;fa fa-pinterest-p fa-stack-1x isb-white&#x22;&#x3E;&#x3C;/i&#x3E;
+&#x3C;/a&#x3E;
+</pre>
+          <h3>Square Icons</h3>
+          <a href="http://www.facebook.com/sharer/sharer.php?p[url]=YOUR_URL&amp;p[title]=YOUR_TITLE" class="fa-stack fa-lg">
+            <i class="fa fa-square isb-facebook fa-stack-2x"></i>
+            <i class="fa fa-facebook fa-stack-1x isb-white"></i>
+          </a>
+
+          <a href="http://twitter.com/intent/tweet/?text=YOUR_TEXT&amp;url=YOUR_URL&amp;via=YOUR_TWITTER" class="fa-stack fa-lg">
+            <i class="fa fa-square isb-twitter fa-stack-2x"></i>
+            <i class="fa fa-twitter fa-stack-1x isb-white"></i>
+          </a>
+
+          <a href="https://plus.google.com/share?url=YOUR_URL" class="fa-stack fa-lg">
+            <i class="fa fa-square isb-googleplus fa-stack-2x"></i>
+            <i class="fa fa-google-plus fa-stack-1x isb-white"></i>
+          </a>
+
+          <a href="javascript:void((function()%7Bvar%20e=document.createElement(&apos;script&apos;);e.setAttribute(&apos;type&apos;,&apos;text/javascript&apos;);e.setAttribute(&apos;charset&apos;,&apos;UTF-8&apos;);e.setAttribute(&apos;src&apos;,&apos;http://assets.pinterest.com/js/pinmarklet.js?r=&apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());" class="fa-stack fa-lg">
+            <i class="fa fa-square isb-pinterest fa-stack-2x"></i>
+            <i class="fa fa-pinterest-p fa-stack-1x isb-white"></i>
+          </a>
+          <h4>Code:</h4>
+<pre>
+&#x3C;a href=&#x22;http://www.facebook.com/sharer/sharer.php?p[url]=YOUR_URL&#x26;amp;p[title]=YOUR_TITLE&#x22; class=&#x22;fa-stack fa-lg&#x22;&#x3E;
+  &#x3C;i class=&#x22;fa fa-square isb-facebook fa-stack-2x&#x22;&#x3E;&#x3C;/i&#x3E;
+  &#x3C;i class=&#x22;fa fa-facebook fa-stack-1x isb-white&#x22;&#x3E;&#x3C;/i&#x3E;
+&#x3C;/a&#x3E;
+
+&#x3C;a href=&#x22;http://twitter.com/intent/tweet/?text=YOUR_TEXT&#x26;amp;url=YOUR_URL&#x26;amp;via=YOUR_TWITTER&#x22; class=&#x22;fa-stack fa-lg&#x22;&#x3E;
+  &#x3C;i class=&#x22;fa fa-square isb-twitter fa-stack-2x&#x22;&#x3E;&#x3C;/i&#x3E;
+  &#x3C;i class=&#x22;fa fa-twitter fa-stack-1x isb-white&#x22;&#x3E;&#x3C;/i&#x3E;
+&#x3C;/a&#x3E;
+
+&#x3C;a href=&#x22;https://plus.google.com/share?url=YOUR_URL&#x22; class=&#x22;fa-stack fa-lg&#x22;&#x3E;
+  &#x3C;i class=&#x22;fa fa-square isb-googleplus fa-stack-2x&#x22;&#x3E;&#x3C;/i&#x3E;
+  &#x3C;i class=&#x22;fa fa-google-plus fa-stack-1x isb-white&#x22;&#x3E;&#x3C;/i&#x3E;
+&#x3C;/a&#x3E;
+
+&#x3C;a href=&#x22;javascript:void((function()%7Bvar%20e=document.createElement(&#x26;apos;script&#x26;apos;);e.setAttribute(&#x26;apos;type&#x26;apos;,&#x26;apos;text/javascript&#x26;apos;);e.setAttribute(&#x26;apos;charset&#x26;apos;,&#x26;apos;UTF-8&#x26;apos;);e.setAttribute(&#x26;apos;src&#x26;apos;,&#x26;apos;http://assets.pinterest.com/js/pinmarklet.js?r=&#x26;apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());&#x22; class=&#x22;fa-stack fa-lg&#x22;&#x3E;
+  &#x3C;i class=&#x22;fa fa-square isb-pinterest fa-stack-2x&#x22;&#x3E;&#x3C;/i&#x3E;
+  &#x3C;i class=&#x22;fa fa-pinterest-p fa-stack-1x isb-white&#x22;&#x3E;&#x3C;/i&#x3E;
+&#x3C;/a&#x3E;
+</pre>
+          <h3>Logo with Text Icons</h3>
+            <a href="http://www.facebook.com/sharer/sharer.php?p[url]=YOUR_URL&amp;p[title]=YOUR_TITLE" class="isb-btn isb-facebook-bg isb-white"><i class="fa fa-facebook"></i> Like</a>
+            <a href="http://twitter.com/intent/tweet/?text=YOUR_TEXT&amp;url=YOUR_URL&amp;via=YOUR_TWITTER" class="isb-btn isb-twitter-bg isb-white"><i class="fa fa-twitter"></i> Tweet</a>
+            <a href="https://plus.google.com/share?url=YOUR_URL" class="isb-btn isb-googleplus-bg isb-white"><i class="fa fa-google-plus"></i> Share</a>
+            <a href="javascript:void((function()%7Bvar%20e=document.createElement(&apos;script&apos;);e.setAttribute(&apos;type&apos;,&apos;text/javascript&apos;);e.setAttribute(&apos;charset&apos;,&apos;UTF-8&apos;);e.setAttribute(&apos;src&apos;,&apos;http://assets.pinterest.com/js/pinmarklet.js?r=&apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());" class="isb-btn isb-pinterest-bg isb-white"><i class="fa fa-pinterest-p"></i> Pin It</a>
+            <h4>Code:</h4>
+<pre> 
+&#x3C;a href=&#x22;http://www.facebook.com/sharer/sharer.php?p[url]=YOUR_URL&#x26;amp;p[title]=YOUR_TITLE&#x22; class=&#x22;isb-btn isb-facebook-bg isb-white&#x22;&#x3E;&#x3C;i class=&#x22;fa fa-facebook&#x22;&#x3E;&#x3C;/i&#x3E; Like&#x3C;/a&#x3E;
+&#x3C;a href=&#x22;http://twitter.com/intent/tweet/?text=YOUR_TEXT&#x26;amp;url=YOUR_URL&#x26;amp;via=YOUR_TWITTER&#x22; class=&#x22;isb-btn isb-twitter-bg isb-white&#x22;&#x3E;&#x3C;i class=&#x22;fa fa-twitter&#x22;&#x3E;&#x3C;/i&#x3E; Tweet&#x3C;/a&#x3E;
+&#x3C;a href=&#x22;https://plus.google.com/share?url=YOUR_URL&#x22; class=&#x22;isb-btn isb-googleplus-bg isb-white&#x22;&#x3E;&#x3C;i class=&#x22;fa fa-google-plus&#x22;&#x3E;&#x3C;/i&#x3E; Share&#x3C;/a&#x3E;
+&#x3C;a href=&#x22;javascript:void((function()%7Bvar%20e=document.createElement(&#x26;apos;script&#x26;apos;);e.setAttribute(&#x26;apos;type&#x26;apos;,&#x26;apos;text/javascript&#x26;apos;);e.setAttribute(&#x26;apos;charset&#x26;apos;,&#x26;apos;UTF-8&#x26;apos;);e.setAttribute(&#x26;apos;src&#x26;apos;,&#x26;apos;http://assets.pinterest.com/js/pinmarklet.js?r=&#x26;apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());&#x22; class=&#x22;isb-btn isb-pinterest-bg isb-white&#x22;&#x3E;&#x3C;i class=&#x22;fa fa-pinterest-p&#x22;&#x3E;&#x3C;/i&#x3E; Pin It&#x3C;/a&#x3E;
+</pre>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
