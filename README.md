@@ -14,6 +14,9 @@ Next view the demo.html page to find suitable social buttons and copy the code a
 #Dependencies
 * [Font Awesome](http://fortawesome.github.io/Font-Awesome/) 
 
+#Demo
+[Click Here](https://htmlpreview.github.io/?https://raw.githubusercontent.com/rapidwebltd/Intent-Social-Buttons/master/demo.html)
+
 #Credits
 [Font Awesome](http://fortawesome.github.io/Font-Awesome/) - For the Social Network Logos
 
