@@ -2,7 +2,7 @@
 A pure HTML & CSS implementation on allowing your end users to interact with social networks from your site without any need of loading in heavy JavaScript-based widgets.
 
 #Installation 
-First download the intent-social-icons.css in this repository and include it at the top of your page with the font awesome CDN link:
+First download the `intent-social-buttons.css` in this repository and include it at the top of your page with the font awesome CDN link:
 
 ```html
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
