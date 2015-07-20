@@ -6,8 +6,9 @@ First download the intent-social-icons.css in this repository and include it at 
 
 ```html
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="intent-social-icons.css">
+<link rel="stylesheet" href="intent-social-buttons.css">
 ```
+(Or where you have saved the `intent-social-buttons.css` file...)
 
 Next view the demo.html page to find suitable social buttons and copy the code and you're done! :) 
 
