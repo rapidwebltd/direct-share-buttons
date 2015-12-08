@@ -5,6 +5,9 @@ Direct Social Icons
 A pure HTML & CSS implementation on allowing your end users to interact with social networks from your site without any need of loading in heavy JavaScript-based widgets.
 
 # Installation 
+## Dependencies
+* [Font Awesome](http://fortawesome.github.io/Font-Awesome/) 
+* [Bower](http://bower.io/#install-bower) 
 
 ## Via Bower
 Simply run:
@@ -25,8 +28,6 @@ First download the `direct-social-buttons.css` in this repository and include it
 
 Next view the demo.html page to find suitable social buttons and copy the code and you're done! :) 
 
-# Dependencies
-* [Font Awesome](http://fortawesome.github.io/Font-Awesome/) 
 
 # Examples
 ## Circle Icons
