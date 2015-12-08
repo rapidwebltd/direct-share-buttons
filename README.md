@@ -4,19 +4,19 @@ Direct Social Icons
 
 A pure HTML & CSS implementation on allowing your end users to interact with social networks from your site without any need of loading in heavy JavaScript-based widgets.
 
-# Installation 
-## Dependencies
+## Installation 
+#### Dependencies
 * [Font Awesome](http://fortawesome.github.io/Font-Awesome/) 
 * [Bower](http://bower.io/#install-bower) 
 
-## Via Bower
+### Via Bower
 Simply run:
 
 ```
 bower install direct-social-buttons
 ```
 
-## Via Manually
+### Via Manually
 
 First download the `direct-social-buttons.css` in this repository and include it at the top of your page with the font awesome CDN link:
 
@@ -29,8 +29,8 @@ First download the `direct-social-buttons.css` in this repository and include it
 Next view the demo.html page to find suitable social buttons and copy the code and you're done! :) 
 
 
-# Examples
-## Circle Icons
+## Examples
+### Circle Icons
 ![Screenshot of Circle Direct Social Icons](http://i.imgur.com/xOxbDm3.png)
 ```html
 <a href="//www.facebook.com/sharer/sharer.php?u=YOUR_URL" class="fa-stack fa-lg">
@@ -58,7 +58,7 @@ Next view the demo.html page to find suitable social buttons and copy the code a
    <i class="fa fa-linkedin fa-stack-1x dsb-white"></i>
 </a>
 ```
-## Square Icons
+### Square Icons
 ![Screenshot of Square Direct Social Icons](http://i.imgur.com/nsRLSLp.png)
 ```html
 a href="//www.facebook.com/sharer/sharer.php?u=YOUR_URL" class="fa-stack fa-lg">
@@ -87,7 +87,7 @@ a href="//www.facebook.com/sharer/sharer.php?u=YOUR_URL" class="fa-stack fa-lg">
 </a>
 ```
 
-## Icons with Text
+### Icons with Text
 ![Screenshot of Direct Social Icons with text label](http://i.imgur.com/yVAncsL.png)
 ```html
  
@@ -102,12 +102,12 @@ a href="//www.facebook.com/sharer/sharer.php?u=YOUR_URL" class="fa-stack fa-lg">
 <a href="//www.linkedin.com/shareArticle?url=YOUR_URL&amp;title=YOUR%20TITLE&amp;summary=YOUR%20SUMMARY" class="dsb-btn dsb-linkedin-bg dsb-white"><i class="fa fa-linkedin"></i> Share</a>
 ```
 
-# Credits
+## Credits
 [Font Awesome](http://fortawesome.github.io/Font-Awesome/) - For the Social Network Logos
 
 [Danny van Kooten](https://dannyvankooten.com/add-plain-html-social-sharing-links-posts/) - For the insight into social network intents
 
 [Jeremy Mansfield](http://www.brandaiddesignco.com/insights/add-a-custom-pinterest-pin-it-button-to-your-website/) - For the insight into Pinterest functionality from URL
 
-#License 
+## License 
 MIT
