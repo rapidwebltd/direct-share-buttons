@@ -1,6 +1,7 @@
 Direct Social Icons
 ===================
 *Formerly known as Intent Social Icons*
+
 A pure HTML & CSS implementation on allowing your end users to interact with social networks from your site without any need of loading in heavy JavaScript-based widgets.
 
 # Installation 
