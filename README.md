@@ -5,6 +5,16 @@ Direct Social Icons
 A pure HTML & CSS implementation on allowing your end users to interact with social networks from your site without any need of loading in heavy JavaScript-based widgets.
 
 # Installation 
+
+## Via Bower
+Simply run:
+
+```
+bower install direct-social-buttons
+```
+
+## Via Manually
+
 First download the `direct-social-buttons.css` in this repository and include it at the top of your page with the font awesome CDN link:
 
 ```html
@@ -19,7 +29,7 @@ Next view the demo.html page to find suitable social buttons and copy the code a
 * [Font Awesome](http://fortawesome.github.io/Font-Awesome/) 
 
 # Demo
-[Click Here](https://htmlpreview.github.io/?https://raw.githubusercontent.com/rapidwebltd/Direct-Social-Buttons/master/demo.html)
+[Click Here to see list of buttons layout options](https://htmlpreview.github.io/?https://raw.githubusercontent.com/rapidwebltd/Direct-Social-Buttons/master/demo.html)
 
 # Credits
 [Font Awesome](http://fortawesome.github.io/Font-Awesome/) - For the Social Network Logos
