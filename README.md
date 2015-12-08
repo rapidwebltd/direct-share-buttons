@@ -29,7 +29,7 @@ First download the `direct-social-buttons.css` in this repository and include it
 Next view the demo.html page to find suitable social buttons and copy the code and you're done! :) 
 
 
-## Examples
+## Examples & Usage
 ### Circle Icons
 ![Screenshot of Circle Direct Social Icons](http://i.imgur.com/xOxbDm3.png)
 ```html
