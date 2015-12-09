@@ -4,10 +4,10 @@ Direct Share Buttons
 
 A pure HTML & CSS implementation on allowing your end users to interact with social networks from your site without any need of loading in heavy JavaScript-based widgets.
 
-## Installation 
+## Installation
 #### Dependencies
-* [Font Awesome](http://fortawesome.github.io/Font-Awesome/) 
-* [Bower](http://bower.io/#install-bower) 
+* [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
+* [Bower](http://bower.io/#install-bower)
 
 ### Via Bower
 Simply run:
@@ -26,11 +26,11 @@ First download the `direct-share-buttons.css` in this repository and include it 
 ```
 (Or where you have saved the `direct-share-buttons.css` file...)
 
-Next view the demo.html page to find suitable social share buttons and copy the code and you're done! :) 
+Next view the demo.html page to find suitable social share buttons and copy the code and you're done! :)
 
 ## Examples & Usage
 ### Circle Icons
-![Screenshot of Circle Direct Social Icons](http://i.imgur.com/xOxbDm3.png)
+![Screenshot of Circle Direct Share Icons](http://i.imgur.com/xOxbDm3.png)
 ```html
 <a href="//www.facebook.com/sharer/sharer.php?u=YOUR_URL" class="fa-stack fa-lg">
   <i class="fa fa-circle dsb-facebook fa-stack-2x"></i>
@@ -58,7 +58,7 @@ Next view the demo.html page to find suitable social share buttons and copy the 
 </a>
 ```
 ### Square Icons
-![Screenshot of Square Direct Social Icons](http://i.imgur.com/nsRLSLp.png)
+![Screenshot of Square Direct Share Icons](http://i.imgur.com/nsRLSLp.png)
 ```html
 <a href="//www.facebook.com/sharer/sharer.php?u=YOUR_URL" class="fa-stack fa-lg">
   <i class="fa fa-square dsb-facebook fa-stack-2x"></i>
@@ -87,9 +87,9 @@ Next view the demo.html page to find suitable social share buttons and copy the 
 ```
 
 ### Icons with Text
-![Screenshot of Direct Social Icons with text label](http://i.imgur.com/yVAncsL.png)
+![Screenshot of Direct Share Icons with text label](http://i.imgur.com/yVAncsL.png)
 ```html
- 
+
 <a href="//www.facebook.com/sharer/sharer.php?u=YOUR_URL" class="dsb-btn dsb-facebook-bg dsb-white"><i class="fa fa-facebook"></i> Share</a>
 
 <a href="//twitter.com/intent/tweet/?text=YOUR_TEXT&amp;url=YOUR_URL&amp;via=YOUR_TWITTER" class="dsb-btn dsb-twitter-bg dsb-white"><i class="fa fa-twitter"></i> Tweet</a>
@@ -104,9 +104,9 @@ Next view the demo.html page to find suitable social share buttons and copy the 
 ## Credits
 [Font Awesome](http://fortawesome.github.io/Font-Awesome/) - For the Social Network Logos
 
-[Danny van Kooten](https://dannyvankooten.com/add-plain-html-social-sharing-links-posts/) - For the insight into social network intents
+[Danny van Kooten](https://dannyvankooten.com/add-plain-html-social-sharing-links-posts/) - For the insight into social network sharing
 
 [Jeremy Mansfield](http://www.brandaiddesignco.com/insights/add-a-custom-pinterest-pin-it-button-to-your-website/) - For the insight into Pinterest functionality from URL
 
-## License 
+## License
 MIT
