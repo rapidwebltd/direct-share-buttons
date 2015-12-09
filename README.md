@@ -1,4 +1,4 @@
-Direct Social Icons
+Direct Share Buttons
 ===================
 *Formerly known as Intent Social Icons*
 
@@ -13,21 +13,20 @@ A pure HTML & CSS implementation on allowing your end users to interact with soc
 Simply run:
 
 ```
-bower install direct-social-buttons
+bower install direct-share-buttons
 ```
 
 ### Via Manually
 
-First download the `direct-social-buttons.css` in this repository and include it at the top of your page with the font awesome CDN link:
+First download the `direct-share-buttons.css` in this repository and include it at the top of your page with the font awesome CDN link:
 
 ```html
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="direct-social-buttons.css">
+<link rel="stylesheet" href="direct-share-buttons.css">
 ```
-(Or where you have saved the `direct-social-buttons.css` file...)
+(Or where you have saved the `direct-share-buttons.css` file...)
 
-Next view the demo.html page to find suitable social buttons and copy the code and you're done! :) 
-
+Next view the demo.html page to find suitable social share buttons and copy the code and you're done! :) 
 
 ## Examples & Usage
 ### Circle Icons
@@ -61,7 +60,7 @@ Next view the demo.html page to find suitable social buttons and copy the code a
 ### Square Icons
 ![Screenshot of Square Direct Social Icons](http://i.imgur.com/nsRLSLp.png)
 ```html
-a href="//www.facebook.com/sharer/sharer.php?u=YOUR_URL" class="fa-stack fa-lg">
+<a href="//www.facebook.com/sharer/sharer.php?u=YOUR_URL" class="fa-stack fa-lg">
   <i class="fa fa-square dsb-facebook fa-stack-2x"></i>
   <i class="fa fa-facebook fa-stack-1x dsb-white"></i>
 </a>
