@@ -1,0 +1,25 @@
+{
+  "name": "direct-share-buttons",
+  "homepage": "https://github.com/rapidwebltd/direct-share-buttons",
+  "authors": [
+    "Oliver Reardon <oliver.reardon@rapidweb.biz>"
+  ],
+  "description": "A pure HTML & CSS implementation on allowing your end users to interact with social networks from your site without any need of loading in heavy JavaScript-based widgets.",
+  "main": "direct-share-buttons.css",
+  "keywords": [
+    "css",
+    "social",
+    "icons",
+    "social",
+    "buttons",
+    "no-js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
