@@ -4,15 +4,14 @@
   "authors": [
     "Oliver Reardon <oliver.reardon@rapidweb.biz>"
   ],
-  "description": "A pure HTML & CSS implementation on allowing your end users to interact with social networks from your site without any need of loading in heavy JavaScript-based widgets.",
+  "description": "A pure HTML & CSS implementation on allowing your end users to interact with social networks from your website.",
   "main": "direct-share-buttons.css",
   "keywords": [
     "css",
     "social",
     "icons",
     "social",
-    "buttons",
-    "no-js"
+    "buttons"
   ],
   "license": "MIT",
   "ignore": [
@@ -23,6 +22,5 @@
     "tests"
   ],
   "dependencies": {
-    "font-awesome": "^4.6.3"
   }
 }
